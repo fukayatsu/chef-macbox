@@ -12,6 +12,7 @@
         "recipe[apps::ccmenu]",
         "recipe[apps::chrome]",
         "recipe[apps::dropbox]",
+        "recipe[apps::sublime_text_2]",
         "recipe[config::dock]",
         "recipe[dotfiles]"
     ],
