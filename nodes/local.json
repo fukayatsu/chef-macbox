@@ -45,7 +45,8 @@
             "valgrind",
             "watch",
             "w3m",
-            "wget"
+            "wget",
+            "z"
         ]
     }
 }
