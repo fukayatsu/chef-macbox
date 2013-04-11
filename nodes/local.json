@@ -13,6 +13,7 @@
         "recipe[apps::chrome]",
         "recipe[apps::dropbox]",
         "recipe[config::dock]",
+        "recipe[config::shell]",
         "recipe[dotfiles]"
     ],
     "homebrew": {
