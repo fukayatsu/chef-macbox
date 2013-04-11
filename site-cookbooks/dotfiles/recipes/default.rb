@@ -15,13 +15,8 @@ git node['user']['home'] + "/github/fukayatsu/dotfiles" do
 end
 
 bash "setup-dotfiles" do
-  user node['user']['name']
-  group node['user']['group'] 
-  cwd node['user']['home']
-  environment "HOME" => node['user']['home']
-
   code <<-EOC
     cd ~/github/fukayatsu/dotfiles
-    ./symlink.sh
+    sudo -u fukayatsu ./symlink.sh
   EOC
 end

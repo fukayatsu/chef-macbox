@@ -1,7 +1,7 @@
 task :default => "cookbook:validate"
 
 task :setup do
-  sh "chef-solo -c ./config/solo.rb -j ./nodes/local.json"
+  sh "sudo chef-solo -c ./config/solo.rb -j ./nodes/local.json"
 end
 
 namespace :cookbook do
