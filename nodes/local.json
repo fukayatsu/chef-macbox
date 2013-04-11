@@ -1,8 +1,8 @@
 {
    "user":{
-        "name": "dann",
+        "name": "fukayatsu",
         "group" : "staff",
-        "home": "/Users/dann"
+        "home": "/Users/fukayatsu"
     },
     "run_list": [
         "recipe[homebrew]",
