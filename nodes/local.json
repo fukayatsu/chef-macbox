@@ -1,5 +1,5 @@
 {
-   "user":{
+    "user":{
         "name": "fukayatsu",
         "group" : "staff",
         "home": "/Users/fukayatsu"
@@ -7,16 +7,26 @@
     "run_list": [
         "recipe[homebrew]",
         "recipe[dmg]",
+        "recipe[zip_app]",
         "recipe[mac_os_x]",
         "recipe[brew]",
         "recipe[apps::ccmenu]",
         "recipe[apps::chrome]",
         "recipe[apps::dropbox]",
+        "recipe[apps::iterm2]",
         "recipe[apps::sublime_text_2]",
         "recipe[config::dock]",
         "recipe[config::shell]",
         "recipe[dotfiles]"
     ],
+    "zip_app":{
+        "apps": [
+            {
+                "name"        : "iTerm",
+                "source"      : "https://iterm2.googlecode.com/files/iTerm2_v1_0_0.zip"
+            }
+        ]
+    },
     "homebrew": {
         "packages": [
             "bvi",
